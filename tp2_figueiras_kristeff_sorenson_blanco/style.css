@@ -1,0 +1,78 @@
+html, body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #041527, #6d78dd);
+  text-align: center;
+}
+
+canvas {
+  display: block;
+}
+
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 500px;
+  background-image: url("img/fd88ff1025677d83f1a481688e8e3c9a.png");
+}
+
+.logo {
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.caja-descripcion {
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #eb7609, #daa90c);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-align: center;
+  
+}
+
+.integrante, .servicio {
+  display: inline-block;
+  width: 180px;
+  margin: 20px;
+}
+
+.integrante img, .servicio img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.servicio img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.servicio {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+footer {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  background-color: #424242;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
